@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../web/css/reset.css"/>
+    <title>Title</title>
+    <style>
+        .shell .form-default{
+            padding:16px;
+        }
+        .shell .form-default ul li label{
+            display: inline-block;
+            width: 80px;
+            text-align: right;
+            padding-right: 6px;
+            vertical-align: middle;
+            box-sizing: border-box;
+        }
+        .shell input,select{
+            height:26px;
+            width:160px;
+            padding:0 5px;
+            outline:none;
+            border:1px solid #9e9e9e;
+            box-sizing: border-box;
+        }
+        .shell input:focus,select:focus{
+            border:1px solid #09f;
+            outline:none;
+        }
+
+        .shell ul li{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+<div class="shell">
+<form class="form-default">
+    <ul>
+        <li><label>菜品名称</label><input type="text"></li>
+        <li><label>菜品类别</label><select >
+            <option>蒸菜</option>
+            <option>炒菜</option>
+            <option>炖菜</option>
+        </select></li>
+    </ul>
+</form>
+</div>
+</body>
+</html>

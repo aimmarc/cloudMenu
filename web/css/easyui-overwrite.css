@@ -1,0 +1,47 @@
+.panel-header, .panel-body{
+    border-color: #e0e0e0!important;
+}
+.datagrid-header td, .datagrid-body td, .datagrid-footer td{
+    border-color:#e0e0e0;
+}
+.datagrid-header td, .datagrid-body td, .datagrid-footer td{
+    border-style: double;
+}
+.datagrid-row-selected{
+    background: #09f;
+    color: #fff;
+}
+.datagrid-header{
+    height: 29px !important;
+}
+.datagrid-htable{
+    height: 30px !important;
+}
+.datagrid-header-row, .datagrid-row{
+    height: 28px !important;
+}
+.datagrid-header, .datagrid-toolbar, .datagrid-pager, .datagrid-footer-inner{
+    border-color:#e0e0e0;
+}
+.datagrid-header, .datagrid-td-rownumber{
+    background:linear-gradient(to bottom,#eee 0,#eee 100%)
+}
+.panel-header{
+    background:linear-gradient(to bottom,#eee 0,#eee 100%)
+}
+
+.l-btn{
+    background:linear-gradient(to bottom,#09f 0,#09f 100%);
+    border-radius: 2px;
+    border:1px solid #09f;
+    color: #fff;
+}
+.l-btn:hover{
+    background:linear-gradient(to bottom,#09f 0,#09f 100%);
+    color: #fff;
+    border:1px solid #09f;
+}
+
+.datagrid-cell, .datagrid-cell-group, .datagrid-header-rownumber, .datagrid-cell-rownumber{
+    line-height: 26px;
+}
